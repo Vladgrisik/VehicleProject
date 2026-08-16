@@ -24,4 +24,8 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	int Sum = 5;
+
+private:
+
+	class UStaticMeshComponent* StaticMesh;
 };
